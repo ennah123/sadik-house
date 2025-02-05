@@ -1,0 +1,31 @@
+.sadik {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.backo {
+    left: 24px;
+    bottom: 302px;
+    transform: translateY(95px);
+}
+.me {
+    transform: translatey(-60px)translatex(10px);
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.me2{
+    transform: translateY(-2px);
+}
+.go-down {
+    left: 50%;
+    position: relative;
+    top: 50px;
+    animation: go-sadik .8s infinite .1s ease;
+}
+@keyframes go-sadik {
+    from{
+        top: 40px;
+    }
+    to{
+        top: 70px;
+    }
+}
